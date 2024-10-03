@@ -1,0 +1,68 @@
+:root {
+    font-size: 12pt;
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #e47d91;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    border: .4rem solid rgb(236, 236, 236);
+    border-radius: 1.5rem ; 
+    height: 20rem;
+    box-shadow: .4rem .4rem .2rem #9e5665;
+}
+
+.foto-perfil {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .4rem solid white;
+}
+
+
+.perfil {
+    background-color: #ea5370;
+    width: 20rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem 1rem 0 0; 
+}
+
+.estadisticas {
+    display: flex;
+    width: 20rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 0 1rem 1rem ;
+    padding: 1rem;
+}
+
+.estadisticas p, .datos-perfil p {
+    margin: .5rem;
+    text-align: center;
+}
+
+.tag {
+    color: #fff;
+    text-decoration: none;
+}
