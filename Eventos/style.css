@@ -1,0 +1,118 @@
+:root {
+    font-size: 12pt;
+    font-family: serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.fondo-gris {
+    background-color: #f7f7f7;
+    width: 80%;
+    border-radius: 1rem;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja {
+    margin: .5rem;
+    background-color: #fff;
+    box-shadow: 0 .4rem .4rem .1rem #0000003b;
+    border-radius: 1rem;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+}
+
+/* Foto */
+.foto {
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+
+}
+.foto img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .4rem solid white;
+    border-radius: 3rem 1.5rem;
+    box-shadow: .1rem .1rem .1rem .2rem #00000079;
+    margin: 1rem;
+}
+
+/* Contenido */
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.contenido p, .contenido h2 {
+    margin: 0.5rem;
+}
+
+/* Calendario */
+.calendario {
+    display: flex;
+    color: grey
+}
+
+.fecha {
+    margin-right: 1rem;
+}
+
+
+
+/* Añadir */
+.añadir {
+    display: flex;
+    align-items: center;
+}
+
+.coste, .informacion {
+    margin: .2rem;
+    border-radius: .5rem;
+    color: #fff;
+}
+
+.coste {
+    padding: .4rem;
+    font-weight: bold;
+}
+
+.gratis {
+    background-color: #4caf50;
+}
+.pago {
+    background-color: #f44336;
+}
+
+.informacion {
+    background-color: #4ab3f4;
+    width: 9rem;
+    text-align: center;
+    padding: .6rem;
+}
+
+.informacion a {
+    color: white;
+    text-decoration: none;
+}
+
+.informacion :hover {
+    background-color: #4ab3f4;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+:root {
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.fondo-azul {
+    background-color: #4ab3f4;
+    height: 7rem;
+    width: 20rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sol, .datos, .extra {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.sol {
+    
+}
+.datos, .extra {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.datos {
+    justify-content: space-evenly;
+}
+
+.datos p {
+    margin: 0;
+}
+.datos p:nth-of-type(1) {
+    font-size: 1.6rem;
+}
+.datos p:nth-of-type(2) {
+    font-size: .8rem;
+}
+.datos :nth-of-type(2n+1) {
+    font-weight: bold;
+}
+
+.extra {
+    
+    justify-content: end;
+}
+.extra p {
+    font-size: .8rem;
+}
+
+.sol img {
+    width: 3.5rem;
+}
