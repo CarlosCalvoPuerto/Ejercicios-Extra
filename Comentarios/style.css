@@ -1,0 +1,67 @@
+:root {
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja {
+    display: flex;
+}
+
+.columna1 .caja-comentario{
+
+    background-color: #95daa17c;
+}
+
+.caja-comentario {
+    width: 24rem;
+    height: 10rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 1rem;
+    box-shadow: 0 .2rem .4rem #0000002d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caja-comentario p, .caja-comentario h2{
+    margin: .2rem;
+}
+
+.nombre-titulo {
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+.nombre-negrita {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.empleo {
+    color: grey;
+}
+.comentario {
+    font-style: italic;
+}
+
+.flecha {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .caja {
+        min-width: 80%;
+    }
+}
