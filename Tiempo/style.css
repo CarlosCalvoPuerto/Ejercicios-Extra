@@ -12,12 +12,15 @@ body {
 
 
 .fondo-azul {
+    margin: 1rem;
     background-color: #4ab3f4;
     height: 7rem;
-    width: 20rem;
+    width: 22rem;
     border-radius: 1rem;
     display: flex;
     justify-content: space-around;
+    text-shadow: 1px 1px black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
 }
 
 .sol, .datos, .extra {
@@ -25,12 +28,10 @@ body {
     align-items: center;
     color: #fff;
 }
-
-.sol {
-    
+.sol img {
+    width: 3.5rem;
 }
 .datos, .extra {
-    
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -38,7 +39,6 @@ body {
 .datos {
     justify-content: space-evenly;
 }
-
 .datos p {
     margin: 0;
 }
@@ -51,7 +51,6 @@ body {
 .datos :nth-of-type(2n+1) {
     font-weight: bold;
 }
-
 .extra {
     
     justify-content: end;
@@ -59,7 +58,7 @@ body {
 .extra p {
     font-size: .8rem;
 }
-
-.sol img {
-    width: 3.5rem;
+.extra .negrita {
+    font-weight: bolder;
+    font-size: .9rem;
 }

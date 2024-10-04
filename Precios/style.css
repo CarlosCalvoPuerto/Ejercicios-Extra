@@ -1,0 +1,57 @@
+:root {
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .6rem;
+    margin-top: 2.2rem;
+    border-radius: 1rem;
+    box-shadow: 0 .2rem .4rem #0000002d;
+}
+.premium {
+    background-color: #f35a67;
+    color: #fff;
+}
+
+.caja p, .caja h2, .caja button, .caja ul {
+    margin: .5rem;
+}
+.caja ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.precio {
+    font-size: 1.7rem;
+}
+.boton {
+    background-color: #333333;
+    color: #fff;
+    font-size: 1rem;
+    padding: .8rem 1.2rem;
+    border-radius: .3rem;
+    border: none;
+}
+.boton:hover {
+    background-color: #747474;
+}
+.boton:active {
+    background-color: #b9b9b9;
+}
